@@ -13,6 +13,7 @@ for i,ch in enumerate(s):
         str_in_bracket=""
         while(stack[-1]!='{'):
             str_in_bracket=stack.pop()+str_in_bracket
+            print(stack,str_in_bracket)
         stack.pop()
         stack.append(str_in_bracket)
 print(''.join(stack))

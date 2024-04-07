@@ -14,4 +14,4 @@ for i in s:
         res=""
     else:
         res+=i
-print (''.join(stack))
+print (''.join(str(stack)))
