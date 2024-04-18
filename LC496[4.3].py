@@ -12,4 +12,4 @@ for i in nums1:
     if flag==0:
         ans.append(-1)
     flag=0
-print(ans)
+print()
